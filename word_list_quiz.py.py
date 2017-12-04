@@ -16,10 +16,11 @@ def word_count():
     print(count)
 word_count()
 
-def exactly_5_letters():
+
+
+def total_number_of_characters():
     count = 0
     for w in words:
-        if len[w] == 5:
-            count +=1
+        count += len(w)
     print(count)
-exactly_5_letters()
+total_number_of_characters()
